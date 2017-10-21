@@ -14,13 +14,13 @@ This module is a transport plugin for [Nodemailer](https://github.com/andris9/No
 ## Usage
 Install via npm.
 
-	npm install nodemailer-sendgrid-transport
+	npm install nodemailer_sendgrid_transport
 
 Require the module and initialize it with your SendGrid credentials.
 
 ```javascript
 var nodemailer = require('nodemailer');
-var sgTransport = require('nodemailer-sendgrid-transport');
+var sgTransport = require('nodemailer_sendgrid_transport');
 
 // api key https://sendgrid.com/docs/Classroom/Send/api_keys.html
 var options = {
@@ -66,7 +66,7 @@ mailer.sendMail(email, function(err, res) {
 ## Deploying
 
 * Confirm tests pass
-* Bump the version in `README.md`, `package.json`, `test/sendgrid-transport-test.js`
+* Bump the version in `README.md`, `package.json`, `test/sendgrid_transport_test.js`
 * Update `CHANGELOG.md`
 * Confirm tests pass
 * Commit `Version bump vX.X.X`
